@@ -1,0 +1,23 @@
+.slider-list {
+    overflow: hidden;
+  }
+  
+.slider-track {
+    white-space: nowrap;
+    transform: translateX(0%);
+    transition: 0.5s all ease-in; 
+  }
+.slider-slide {
+    display: inline-block;
+    width: 100%;
+  }
+
+.slider-slide div{
+    height: 200px;
+    background: aqua;
+    border: 1px solid black;
+  }
+
+.slider-dot button{
+    pointer-events: none;
+  }
